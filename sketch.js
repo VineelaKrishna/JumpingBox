@@ -27,7 +27,7 @@ function setup(){
 
     //create box sprite and give velocity
 
-    box = createSprite(400,200,30,30);
+    box = createSprite(Math.round(random(20,750)),200,30,30);
     box.shapeColor = "white";
 
     box.velocityX = 2;
